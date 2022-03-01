@@ -1,0 +1,62 @@
+body {
+background-color: rgb(217, 217, 214);
+color: rgb(140, 125, 139);
+font-family: Courier;
+font-size: 16px;
+font-weight: bold;
+}
+
+
+h1,h2 {
+	font-family: Helvetica;
+	color: rgb(95, 55, 84);
+}
+
+h1 {
+	font-size: 30px;
+	font-style: italic;
+
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: underline
+}
+
+a {
+	text-decoration: none ;
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color:  red;
+}
+
+
+
+.container {
+	width: 650px;
+	margin: 35px auto;
+	text-align: center;
+}
+
+.card-grey {
+	padding:  35px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	margin:  20px 0px;
+	text-align: center;
+
+}
+
+.img-circle{
+	border-radius: 40%;
+}
+
+.list-inline li {
+	display:  inline;
+	padding:  10px;
+}
+
